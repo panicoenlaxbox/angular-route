@@ -6,7 +6,7 @@
 				templateUrl: "views/home.html"
 			})
 			.when("/customers", {
-				templateUrl: "views/customers.html" //id de script con type="text/ng-template"
+				templateUrl: "customers.html" //id de script con type="text/ng-template"
 			})
 			.when("/orders/:id", {
 				templateUrl: "views/orders.html"
